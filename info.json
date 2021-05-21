@@ -1,0 +1,22 @@
+{
+    "keyboard_name": "xk9",
+    "url": "https://github.com/xkonni/qmk_xkonni_xk9",
+    "maintainer": "xkonni",
+    "width": 10.75,
+    "height": 1.25,
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"x":0, "y":0},
+                {"x":1.25, "y":0},
+                {"x":2.25, "y":0},
+                {"x":3.25, "y":0},
+                {"x":4.50, "y":0},
+                {"x":5.75, "y":0},
+                {"x":7.00, "y":0},
+                {"x":8.25, "y":0},
+                {"x":9.50, "y":0}
+            ]
+        }
+    }
+}
