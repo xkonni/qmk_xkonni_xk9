@@ -1,0 +1,133 @@
+{
+  "keyboard_name": "xk9",
+  "manufacturer": "xkonni",
+  "url": "https://github.com/xkonni/qmk_xkonni_xk9",
+  "maintainer": "xkonni",
+  "usb": {
+    "vid": "0x0771",
+    "pid": "0x0008",
+    "device_version": "0.0.1"
+  },
+  "encoder": {
+    "rotary": [
+      {
+        "pin_a": "F4",
+        "pin_b": "F5"
+      }
+    ]
+  },
+  "diode_direction": "COL2ROW",
+  "qmk": {
+    "locking": {
+      "enabled": true,
+      "resync": true
+    },
+    "tap_keycode_delay": 10
+  },
+  "processor": "atmega32u4",
+  "bootloader": "caterina",
+  "build": {
+    "lto": true
+  },
+  "features": {
+    "backlight": false,
+    "bootmagic": true,
+    "encoder": true,
+    "extrakey": true,
+    "mousekey": false,
+    "nkro": false,
+    "oled": false,
+    "rgblight": false,
+    "vial": true
+  },
+  "matrix_pins": {
+    "rows": [
+      "D4",
+      "C6",
+      "D7"
+    ],
+    "cols": [
+      "E6",
+      "B4",
+      "B5"
+    ]
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        {
+          "x": 0,
+          "y": 0,
+          "matrix": [
+            0,
+            0
+          ]
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "matrix": [
+            0,
+            1
+          ]
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "matrix": [
+            0,
+            2
+          ]
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "matrix": [
+            1,
+            0
+          ]
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "matrix": [
+            1,
+            1
+          ]
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "matrix": [
+            1,
+            2
+          ]
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "matrix": [
+            2,
+            0
+          ]
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "matrix": [
+            2,
+            1
+          ]
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "matrix": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  }
+}
